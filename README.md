@@ -1,3 +1,7 @@
+<h1 align="center">Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation</h1>
+
+This repo contains the sample code of our proposed ```DivOE``` in our paper: [Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation](https://https://github.com/ZFancy/DivOE) (NeurIPS 2023).
+
 ## Required Packages
 
 The following packages are required to be installed:
@@ -102,3 +106,14 @@ Our method achieves the following average performance on all test OOD datasets:
 |     |   FPR95  |   AUROC  |   FPR95   |   AUROC   | FPR95   |   AUROC   |
 |  OE |   13.76  |   97.53  |   27.67   |   91.89   |  61.94  |  81.58  |
 | DivOE |   **11.66**   |   **97.82**  |   **24.80**   |   **92.91**   |    **60.12**   |   **81.96**   | 
+
+---
+If you find our paper and repo useful, please cite our paper:
+```bibtex
+@inproceedings{zhu2023diversified,
+title     ={Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation},
+author    ={Jianing Zhu, Geng Yu, Jiangchao Yao, Tongliang Liu, Gang Niu, Masashi Sugiyama, Bo Han},
+booktitle ={Thirty-seventh Conference on Neural Information Processing Systems},
+year      ={2023}
+}
+```
